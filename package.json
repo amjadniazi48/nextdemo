@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start",
+    "start": "node node_modules/@strapi/strapi/bin/strapi.js start",
     "lint": "next lint"
   },
   "dependencies": {
